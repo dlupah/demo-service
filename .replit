@@ -1,0 +1,2 @@
+language = "java10"
+run = "mvn package -Dmaven.test.skip=true && java -jar target/demo-service-0.0.1-SNAPSHOT.jar"
